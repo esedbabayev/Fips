@@ -22,7 +22,7 @@
     padding-left: 7%;
     font-size: 20px;
     font-family: Roboto, fallback-font;
-    margin-left: 1px;
+    padding-left: 10%;
     cursor: pointer;
     height: 0vh;
     width: 20%;
@@ -169,6 +169,7 @@ li:hover{
 .ge{
     width: 80%;
     height: 50vh;
+    padding-top: 5%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -418,3 +419,51 @@ li:hover{
     background-color: #dccccc
 }
 /* footer end */
+
+@media screen and (max-width:768px) {
+    .head{
+        width: 100%;
+    }
+    .temp{
+        width: 50%;
+    }
+    .right{
+        width: 50%;
+        padding-top: 1%;
+    }
+    .f-size{
+        font-size: 45px;
+    }
+    .t-i .credo p{
+        height: 0vh;
+    }
+    .you{
+        padding-top: 18%;
+    }
+    .deserve{
+        margin-top: 45px;
+    }
+    .img3{
+        padding-top: 20%;
+    }
+    .same{
+        height: 40vh;   
+    }
+    .input-same , .inp-mes{
+        width: 100%;
+    }
+    .address{
+        width: 50%;
+    }
+    .ic{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .contacts{
+        width: 30%;
+    }
+    .mailbox{
+        width: 90%;
+    }
+    
+}
